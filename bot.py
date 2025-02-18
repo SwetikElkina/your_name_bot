@@ -7,8 +7,8 @@ from aiogram.filters.command import Command # обрабатываем кома�
 from transliterate import translit
 
 # 2. Инициализация объектов
-TOKEN = os.getenv("TOKEN")
-bot = Bot(token="7706552456:AAHnWE2gkq5BsbVUhDx7IWtDqb_oDvf5vdQ")                       # Создаем объект бота
+TOKEN = os.getenv("7706552456:AAHnWE2gkq5BsbVUhDx7IWtDqb_oDvf5vdQ")
+bot = Bot(token="TOKEN")                       # Создаем объект бота
 dp = Dispatcher()     # Создаем объект диспетчера. Все хэндлеры(обработчики) должны быть подключены к диспетчеру
 
 logging.info('Hello')
